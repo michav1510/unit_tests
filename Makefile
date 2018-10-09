@@ -17,4 +17,4 @@ test_K2d_tree.o : test_K2d_tree.cpp
 	g++ -std=c++11 -c test_K2d_tree.cpp
 
 clean : 
-	rm all_tests_run test_CH2d_dlclist.o Point2d.o Edge2d.o Predicates.o
+	rm all_tests_run test_CH2d_dlclist.o Point2d.o Edge2d.o Predicates.o test_K2d_tree.o
