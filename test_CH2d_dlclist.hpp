@@ -1,7 +1,8 @@
 #include <cppunit/TestFixture.h>
 #include <cppunit/extensions/HelperMacros.h>
 
-class test_CH2d_dlclist : public CppUnit::TestFixture {
+class test_CH2d_dlclist : public CppUnit::TestFixture
+{
 
     CPPUNIT_TEST_SUITE(test_CH2d_dlclist);
 
@@ -46,8 +47,7 @@ class test_CH2d_dlclist : public CppUnit::TestFixture {
 
     CPPUNIT_TEST_SUITE_END();
 
-public:
-
+  public:
     void test_param_constr_case1();
     void test_param_constr_case2();
     void test_param_constr_case3();
@@ -88,4 +88,4 @@ public:
     void test_push_case31();
 };
 
-CPPUNIT_TEST_SUITE_REGISTRATION( test_CH2d_dlclist );
+CPPUNIT_TEST_SUITE_REGISTRATION(test_CH2d_dlclist);
